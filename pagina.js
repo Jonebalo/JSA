@@ -14,11 +14,11 @@ const productos = [
   ];
 
 function Usuarios (usuarios) {
-    this.usuarios = usuarios,
+    this.usuarios = usuario,
     this.render = function ({
-    let menuDiv = document.getElementById ("container");
+    let menuDiv = document.getElementById ("container"),
     for (const usuario of this.usuarios){
-        menuDiv.innerHTML = `<li>'${usuario.name}'>%{usuario.age}</li>`;
+        menuDiv.innerHTML = `<li>'${usuario.name}'>% ${usuario.age}</li>`;
     }
         menuDiv.innerHTML += "</ul>"
     })
